@@ -69,10 +69,10 @@
  
                 nav_layer {
                         bindings = <
-&none     &kp F2         &kp UP          &kp F4          &tog NUM          &caps_word   &kp N7  &kp N8     &kp N9     &kp KPLS
-&none     &kp LEFT       &kp DOWN        &kp RIGHT       &none             &kp LEFT     &kp N4  &kp N5     &kp N6      &kp KMLT
-&kp LALT  &kp LGUI       &kp C_VOL_DN      &kp C_VOL_UP      &kp RPRN             &kp HOME  &kp N1     &kp N2    &kp N3        &kp FSLH
-                                &none          &none          &none             &kp N0      &kp BSPC      &kp DEL
+&none     &kp F2         &kp UP          &kp F4          &kp EQUAL          &kp HOME   &kp N7  &kp N8     &kp N9     &kp KPLS
+&kp ESC   &kp LEFT       &kp DOWN        &kp RIGHT       &kp LPRN           &kp END    &kp N4  &kp N5     &kp N6     &kp KMLT
+&none     &none          &kp C_VOL_DN    &kp C_VOL_UP    &kp RPRN           &kp DOT    &kp N1  &kp N2     &kp N3     &kp FSLH
+                                &tog NUM          &caps_word          &none             &kp N0      &kp BSPC      &kp DEL
                         >;
                 };
 
