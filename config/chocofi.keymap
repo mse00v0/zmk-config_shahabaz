@@ -4,6 +4,13 @@
  * SPDX-License-Identifier: MIT
  */
 
+/ {
+    keymap: keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 2000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
