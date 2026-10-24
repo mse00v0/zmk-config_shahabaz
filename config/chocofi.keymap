@@ -20,10 +20,6 @@
 #define MOUSE 4
 #define ADJ 5
 
-&lt {
-  //  flavor = "tap-preferred";
-   // tapping-term-ms = <250>;
-};
 
 &caps_word {
     continue-list = <UNDERSCORE MINUS BACKSPACE N0 N1 N2 N3 N4 N5 N6 N7 N8 N9>;
