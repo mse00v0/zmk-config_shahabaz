@@ -34,6 +34,12 @@
                 key-positions = <0 1>;  // Replace with positions of the keys in your keymap
                 layers = <0>;           // Layer where this combo is active
             };
+            
+            combo_tab {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp DEL>;
+        };
           };
 
         behaviors {
