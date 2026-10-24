@@ -62,16 +62,16 @@
                         bindings = <
 &mt RALT Q  &kp W       &kp E          &kp R          &kp T     &kp Y        &kp U         &kp I            &kp O          &mt RALT P
 &kp A       &hm LCTRL S &hm LSHFT D    &hm LALT F     &kp G     &kp H        &hm RALT J    &hm RSHFT K      &hm RCTRL L    &kp QUOT
-&hm LALT Z  &hm LGUI X  &hm LCTRL C    &hm LSHFT V    &kp B     &kp N        &hm RSHFT M   &hm LCTRL COMMA  &hm LGUI DOT   &hm LALT FSLH
+&kp Z       &kp X       &kp C          &kp V          &kp B     &kp N        &kp M         &kp COMMA        &kp DOT        &kp FSLH
                                      &mt RCTRL MINUS  &lt NUM RET  &lt NAV RET      &hm LSHFT SPACE      &kp BSPC     &lt MOUSE BSPC
                         >;
                 };
  
                 nav_layer {
                         bindings = <
-&none     &kp F2         &kp UP          &kp F4          &tog NUM          &caps_word   &kp N7  &kp N8     &kp N9     &none
-&none     &kp LEFT       &kp DOWN        &kp RIGHT       &none             &kp LEFT     &kp N4  &kp N5     &kp N6      &none
-&kp LALT  &kp LGUI       &kp C_VOL_DN      &kp C_VOL_UP      &none             &kp HOME  &kp N1     &kp N2    &kp N3        &none
+&none     &kp F2         &kp UP          &kp F4          &tog NUM          &caps_word   &kp N7  &kp N8     &kp N9     &kp KPLS
+&none     &kp LEFT       &kp DOWN        &kp RIGHT       &none             &kp LEFT     &kp N4  &kp N5     &kp N6      &kp KMLT
+&kp LALT  &kp LGUI       &kp C_VOL_DN      &kp C_VOL_UP      &kp RPRN             &kp HOME  &kp N1     &kp N2    &kp N3        &kp FSLH
                                 &none          &none          &none             &kp N0      &kp BSPC      &kp DEL
                         >;
                 };
