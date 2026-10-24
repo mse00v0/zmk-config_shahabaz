@@ -78,7 +78,7 @@
 
                 num_layer {
                         bindings = <
-&kp F1    &mkp LCKL     &kp F3         &mkp RCLK      &kp F5       &kp F6     &kp F7         &kp F8            &kp F9          &kp F10
+&kp LBKT    &kp N7      &kp N8         &kp N9         &kp RBKT       &tog NUM     &none         &none            &none          &none
 &kp SQT     &kp N4      &kp N5         &kp N6         &kp EQUAL      &none        &none         &none            &none          &none
 &kp GRAVE   &kp N1      &kp N2         &kp N3         &kp BSLH       &none        &kp LSHFT     &kp LCTRL        &kp LGUI       &kp LALT
                                 &kp DOT        &kp N0         &kp MINUS      &kp RET      &kp BSPC      &kp DEL
