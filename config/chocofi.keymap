@@ -5,7 +5,7 @@
  */
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 2000  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -96,7 +96,7 @@
 &none     &kp F2         &kp UP          &kp F4          &kp EQUAL          &kp HOME   &kp N7  &kp N8     &kp N9     &kp KPLS
 &kp ESC   &kp LEFT       &kp DOWN        &kp RIGHT       &kp LPRN           &kp END    &kp N4  &kp N5     &kp N6     &kp KMLT
 &none     &none          &none           &none           &kp RPRN           &kp DOT    &kp N1  &kp N2     &kp N3     &kp FSLH
-                                &tog NUM          &caps_word          &none             &kp N0      &none      &mkp MB4
+                                &tog NUM          &caps_word          &none             &kp N0      &trans      &mkp MB4
                         >;
                 };
 
